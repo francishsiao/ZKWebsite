@@ -1,0 +1,96 @@
+@import "sub/__modules.less";
+#template-inner { 
+	h3.demo {
+		color: #555555;
+		font-size: 22px;
+		font-weight: normal;
+		padding: 0;
+		border-bottom: 1px solid #a3a3a3;
+	}
+	.demo-container {
+		height: 260px;
+		padding-top: 30px;
+		.preview {
+			float: left;
+			width: 360px;
+			padding-right: 20px;
+			.snapshot {
+				float: right;
+				background: url("/resource/img/demo/index_frame.png") no-repeat scroll 0 0 transparent;
+				height: 213px;
+				width: 312px;
+				padding: 6px;
+			}
+			.snapshot-hover {
+				background: url("/resource/img/demo/index_frame-hover.png") no-repeat scroll 0 0 transparent;
+			}
+		}
+		.meta {
+			width: 570px;
+			float: right;
+			padding-top: 35px;
+			.title {
+				font-weight: normal;
+				font-size: 20px;
+				color: #112f37;
+			}
+			.desc {
+				color: #555555;
+				line-height: 18px;
+				width: 540px;
+				margin: 10px 0 15px 0;
+			}
+			a.launch {
+				.div-button-hidden-txt;
+				width: 118px;
+				height: 35px;
+				background: url("/resource/img/demo/index_button-launchdemo.png") no-repeat scroll 0 0 transparent;
+			}
+			a:hover {
+				background-position: 0 -35px;
+			}
+		}
+	}
+	#app-demo {
+		.app-logo {
+			img{
+				border: 1px solid #cecece;
+			}
+		}
+	}
+	.apps {
+		margin: 20px 30px;
+		.app { 
+			padding: 10px;
+		}
+		.app-logo {
+			float: left;
+			display: block;
+			padding-right: 15px;
+			img {
+				width: 64px;
+				height: 64px;
+			}
+		}
+		.detail {
+			float: right;
+			width: 335px;
+			.title {
+				font-size: 16px;
+				color: #008db7;
+				display: block;
+			}
+			a.title:hover {
+				color: #006684;
+				text-decoration: none;
+			}
+			.desc {
+				font-size: 13px;
+				color: #555555;
+				padding-top: 5px;				
+			}
+		}
+	}
+}
+
+
